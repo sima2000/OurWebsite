@@ -35,8 +35,5 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 450px;
+  height: 450px;
 }
-/* .span 4{ */
-  /* color: #304FFE;
-} */
