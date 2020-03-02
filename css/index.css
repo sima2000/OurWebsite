@@ -1,0 +1,42 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+h1 {
+color: #CDCDCD;
+}
+.socialmedia ul li {
+display: inline-block;
+}
+.socialmedia li{
+  float: right;
+  padding: 10px;
+ margin-top: -53px;
+ color: white;
+}
+.navbarcontent ul li {
+text-decoration: none;
+list-style: none;
+}
+.navbarcontent ul li a {
+  padding:;
+  text-decoration: none;
+  text-decoration-style:solid;
+  font-size: 25px;
+}
+.pages li{
+  border: 7px solid black;
+  width: 50px;
+  background-color: #64C7FF;
+  margin: -5px;
+}
+header {
+  background-image: url("../images/photo1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+/* .span 4{ */
+  /* color: #304FFE;
+} */
