@@ -1,9 +1,15 @@
 body {
   padding: 0px;
   margin: 0px;
+  background-color: white;
+  background-image: url("../images/photo5.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
 color: #CDCDCD;
+border: 7px solid #D25773;
+width: 160px;
 }
 .socialmedia ul li {
 display: inline-block;
@@ -11,32 +17,92 @@ display: inline-block;
 .socialmedia li{
   float: right;
   padding: 10px;
- margin-top: -53px;
- color: white;
+ margin-bottom: -50px;
+ color: #CDCDCD;
+ /* background-color: white; */
+
 }
 .navbarcontent ul li {
 text-decoration: none;
 list-style: none;
+/* margin-right:100px; */
 }
 .navbarcontent ul li a {
   padding:;
   text-decoration: none;
   text-decoration-style:solid;
   font-size: 25px;
+  /* margin-right: 40px; */
 }
 .pages li{
-  border: 7px solid black;
-  width: 50px;
-  background-color: #64C7FF;
-  margin: -5px;
+  /* border: 4px solid #CDCDCD; */
+  /* width: 50px; */
+  background-color: Transparent;
+  margin-top: -310px;
+  padding:160px;
+
 }
+
 header {
-  background-image: url("../images/photo1.jpeg");
+  /* background-image: linear-gradient(rgba(0,0,5, 0.5), rgba(0,0,5, 0.5)), url("../images/NewYork.jpeg"); */
+  background-color: rgba(0,0,0,0.1);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 450px;
 }
-/* .span 4{ */
-  /* color: #304FFE;
-} */
+.text{
+  border: 3px Transparent;
+  width: 100%;
+  position: center;
+border-width:50%;
+/* border-spacing: 40px; */
+border-left-width: 200px;
+}
+.Mission{
+  color: #CDCDCD;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 160px;
+}
+.MSVS {
+  text-align: center;
+  color: #CDCDCD;
+}
+.Vision{
+  color: #CDCDCD;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+}
+
+main h2{
+  text-align: center;
+  color: #D25773;
+  background-color: Transparent;
+  font-size: 30px;
+}
+main {
+  /* background-image: url("../images/ScreenShot .png"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.Why {
+  background-color: #D25773;
+  padding: 25px;
+  margin:19px;
+}
+.Testimonials {
+  background-color: #D25773;
+  padding: 25px;
+  margin: 19px;
+}
