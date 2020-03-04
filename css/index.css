@@ -1,6 +1,6 @@
 body {
-  padding: 0px;
-  margin: 0px;
+  /* padding: -50px; */
+  margin: 10px;
   background-color: white;
   background-image: url("../images/photo5.jpeg");
   background-repeat: no-repeat;
@@ -28,18 +28,18 @@ list-style: none;
 /* margin-right:100px; */
 }
 .navbarcontent ul li a {
-  padding:;
   text-decoration: none;
   text-decoration-style:solid;
   font-size: 25px;
-  /* margin-right: 40px; */
+  margin-left: -205px;
+
 }
 .pages li{
   /* border: 4px solid #CDCDCD; */
   /* width: 50px; */
   background-color: Transparent;
-  margin-top: -310px;
-  padding:160px;
+  margin-top: -430px;
+  padding:225px;
 
 }
 
